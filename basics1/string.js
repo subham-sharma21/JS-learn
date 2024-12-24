@@ -13,7 +13,9 @@ const newString = name.substring(0,4)
 console.log(newString);
 
 const one = name.replace('a','-')
+const one1 = name.replaceAll('a','-')
 console.log(one);
+console.log(one1);
 
 const two = name.includes('a')
 console.log(two);
